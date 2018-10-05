@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Masland</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/masland.css">
+
+</head>
+
+<body>
+  <div class="container col-12">
+    <div id="wrapper">
+      <div id="topBar">
+        <ul class="navbar pagination justify-content-end">
+          <li class="nav-item"><i class="fa fa-shopping-cart"></i></li>
+          <li class="nav-item">| </li>
+          <li class="nav-item">LOG IN</li>
+          <li class="nav-item">| </li>
+          <li class="nav-item">FIND A REP </li>
+          <li class="nav-item">
+            <input type="search" style="height:20px;" placeholder="Search" aria-label="Search"></li>
+        </ul>
+      </div>
+
+      <div id="header">
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" style="width:200px;" alt="Masland logo">
+        </a>
+        <ul class="nav pagination justify-content-end">
+          <li class="nav-item">ABOUT<a href="about.html"></a></li>
+          <li class="nav-item">PRODUCTS</li>
+          <li class="nav-item">SEGMENT</li>
+          <li class="nav-item">CUSTOM</li>
+          <li class="nav-item">TECHNICAL</li>
+          <li class="nav-item">SUSTAINABILITY</li>
+        </ul>
+      </div>
+
+      <!-- Breadcrumb Area -->
+      <nav aria-label="breadcrumb" id="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="about.html">About</a></li>
+          <li class="breadcrumb-item"><a href="links.html">Links</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        </ol>
+      </nav>
+
+      <!-- Contact -->
+      <div id="aboutUs">
+        <span>Contact Us</span>
+        <hr>
+      </div>
+
+      <div class="row" id="contact">
+        <p>Whether you are looking for more information or you would like to comment on our products, you will find
+          easy ways to contact us here.</p>
+        <div class="col-sm-6">
+          <h1>Direct Contact</h1>
+          <p>716 Bill Myles Dr. <br>Saraland, AL 36571</p>
+          <h1>Email</h1>
+          <p><a href="mailto:info@maslandcontract.com">info@maslandcontract.com</a></p>
+          <div class="col-xs-6 no-gutters">
+            <h1>Phone</h1>
+            <p>888-633-4770</p>
+          </div>
+          <div class="col-xs-6">
+            <h1>Fax</h1>
+            <p>251-675-5808</p>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6">
+          <h1>Contact Form</h1>
+          <form action="http://test.maslandcontract.com/contact" id="contactform" method="post" accept-charset="utf-8">
+
+            <div class="row no-gutters">
+              <div class="col-sm-4"><label for="name">name </label></div>
+              <div class="col-sm-8"><input type="text" name="name" value="" required="required">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-sm-4"><label for="email">email </label></div>
+              <div class="col-sm-8"><input type="text" name="email" value="" required="required">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-sm-4"><label for="category">category </label></div>
+              <div class="col-sm-8">
+                <div class="select-wrapper">
+
+                  <select id="dynamic_select" name="topic" required="">
+                    <option value="" selected="">How can we help you?</option>
+                    <option value="product_info">Product Information</option>
+                    <option value="order_info">Order Information</option>
+                    <option value="custom_orders">Custom Orders</option>
+                    <option value="new_account">New Account</option>
+                    <option value="product_registration">Product Registration</option>
+                    <option value="rep_sample">Rep Sample Program</option>
+                    <option value="account_info">Account Info</option>
+                    <option value="general">General Inquires</option>
+                    <option value="careers">Careers</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-sm-4"><label for="topic">topic </label></div>
+              <div class="col-sm-8">
+                <div class="select-wrapper">
+                  <select id="dynamic_select" name="topic">
+                    <option value=" " selected=""> -- </option>
+                    <option value="design">Design</option>
+                    <option value="technical">Technical</option>
+                    <option value="project_management">Project Management</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-xs-12">
+                <label for="message">message </label><br>
+                <textarea name="message" cols="40" rows="10" required="required"></textarea>
+              </div>
+            </div>
+
+
+
+            <div class="row no-gutters ">
+              <div class="col-sm-4"><label for="captcha">captcha </label></div>
+              <div class="col-sm-8">
+                <center><img id="Imageid" src="http://test.maslandcontract.com/captcha/1538613833.3793.jpg" style="width: 200; height: 50; border: 0;"
+                    alt=" "></center><br><input type="text" name="captcha" value="" required="required" placeholder="Enter captcha text">
+              </div>
+            </div>
+
+            <div class="row no-gutters">
+              <div class="col-xs-12">
+                <input type="submit" value="Send">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div id="footer">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
