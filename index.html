@@ -14,199 +14,256 @@
 </head>
 
 <body>
+
+  <!-- Top Bar -->
+  <div id="topBar">
+    <ul class="navbar pagination justify-content-end">
+      <li class="nav-item"><i class="fa fa-shopping-cart"></i></li>
+      <li class="nav-item">| </li>
+      <li class="nav-item">LOG IN</li>
+      <li class="nav-item">| </li>
+      <li class="nav-item">FIND A REP </li>
+      <li class="nav-item">
+        <input type="search" style="height:20px;" placeholder="Search" aria-label="Search"></li>
+    </ul>
+  </div>
+
   <div class="container col-12">
-    <div id="wrapper">
-      <div id="topBar">
-        <ul class="navbar pagination justify-content-end">
-          <li class="nav-item"><i class="fa fa-shopping-cart"></i></li>
-          <li class="nav-item">| </li>
-          <li class="nav-item">LOG IN</li>
-          <li class="nav-item">| </li>
-          <li class="nav-item">FIND A REP </li>
-          <li class="nav-item">
-            <input type="search" style="height:20px;" placeholder="Search" aria-label="Search"></li>
-        </ul>
-      </div>
+    <!-- Header -->
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light style=" background-color: white;">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" height="60" alt="Masland logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
 
-      <div id="header">
-        <a href="index.html">
-          <img class="logo" src="images/logo.png" style="width:200px;" alt="Masland logo">
-        </a>
-        <ul class="nav pagination justify-content-end">
-          <li class="nav-item"><a href="about.html">ABOUT</a></li>
-          <li class="nav-item">PRODUCTS</li>
-          <li class="nav-item">SEGMENT</li>
-          <li class="nav-item">CUSTOM</li>
-          <li class="nav-item">TECHNICAL</li>
-          <li class="nav-item">SUSTAINABILITY</li>
-        </ul>
-      </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                ABOUT
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.html">ABOUT</a>
+                <a class="dropdown-item" href="links.html">LINKS</a>
+                <a class="dropdown-item" href="contact.html">CONTACT US</a>
+              </div>
+            </li>
 
-      <!-- Slider -->
-      <div id="mainSlider">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="images/slider1.jpg" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <p class="slider1">BeSpoke</p>
-                <p class='slider2'>Blur the lines between natural and mechanical </p>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">COLLECTIONS</a>
+                <a class="dropdown-item" href="#">BROADLOOM</a>
+                <a class="dropdown-item" href="#">MODULAR</a>
+                <a class="dropdown-item" href="#">LVT</a>
+                <a class="dropdown-item" href="#">AVANT CARPET</a>
+                <a class="dropdown-item" href="#">HOSPITALITY RUNNING LINE</a>
+                <a class="dropdown-item" href="#">HOSPITALITY GUEST ROOMS</a>
+                <a class="dropdown-item" href="#">QUICKSHIP</a>
+                <a class="dropdown-item" href="#">ELEVATE RUGS</a>
+                <a class="dropdown-item" href="#">STUDIO RUGS</a>
+                <a class="dropdown-item" href="#">ACCESSORIES</a>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/slider2.jpg" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <p class="slider1">Cadence</p>
-                <p class='slider2'>Maximize style. Minimize maintenance.</p>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                SEGMENTS
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">CONTRACT</a>
+                <a class="dropdown-item" href="#">HOSPITALITY</a>
+                <a class="dropdown-item" href="#">SDN CARPET</a>
+                <a class="dropdown-item" href="#">RUGS</a>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/slider3.jpg" alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
-                <p class="slider1">Tread</p>
-                <p class='slider2'>Bring modern grit to vintage glam.</p>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                CUSTOM
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">CUSTOM CARPET PATTERNS</a>
+                <a class="dropdown-item" href="#">CUSTOM NYLON RUGS</a>
+                <a class="dropdown-item" href="#">RUGS 4.0 WOOL</a>
+                <a class="dropdown-item" href="#">ANDARA ROOMS CARPET</a>
+                <a class="dropdown-item" href="#">SOJOURN CUSTOM HOSPITALITY</a>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/slider4.jpg" alt="Fourth slide">
-              <div class="carousel-caption d-none d-md-block">
-                <p class="slider1">Easy Going</p>
-                <p class='slider2'>Coordinate with any design or stand alone.</p>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                TECHNICAL
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">PRODUCT SPECIFICATIONS</a>
+                <a class="dropdown-item" href="#">RUG SPECIFICATIONS</a>
+                <a class="dropdown-item" href="#">PRODUCT TEST RESULTS</a>
+                <a class="dropdown-item" href="#">RUG TEST RESULTS</a>
+                <a class="dropdown-item" href="#">INSTRUCTIONS</a>
+                <a class="dropdown-item" href="#">WARRANTIES</a>
+                <a class="dropdown-item" href="#">ACCESSORIES</a>
               </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                SUSTAINABILITY
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ENVIRONMENTAL POLICY</a>
+                <a class="dropdown-item" href="#">CARPET RECLAMATION</a>
+                <a class="dropdown-item" href="#">EARTHWISE BACKING</a>
+                <a class="dropdown-item" href="#">CHOOSING THE RIGHT FIBER</a>
+                <a class="dropdown-item" href="#">DOCUMENTS</a>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <!--End Slider-->
+      </nav>
+    </div>
+    <!-- End Header -->
 
-      <!-- Top Ads -->
-      <div class="container col-12" id="top">
-        <div class="row">
-          <div class="col-md-6">
-            <h5>What's New</h5>
-            <hr>
-            <div class="content">
-              <img src="images/pic06.jpg">
-              <div class="text">
-                <h5><strong>TITLE</strong></h5>
-                <p>Description</p>
-              </div>
+    <!-- Carousel -->
+    <div id="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active d-none d-sm-block"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="d-none d-sm-block"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="d-none d-sm-block"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="d-none d-sm-block"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid d-block w-100" src="images/Slider E copy.jpg" alt="First slide">
+            <div class="carousel-caption">
+              <h3 class="slider1">BeSpoke</h3>
+              <h2 class='slider2'>Blur the lines between natural and mechanical </h2>
             </div>
-            <hr>
-            <div class="content">
-              <img src="images/pic06.jpg">
-              <div class="text">
-                <h5><strong>TITLE</strong></h5>
-                <p>Description</p>
-              </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Slider D copy.jpg" alt="Second slide">
+            <div class="carousel-caption">
+              <h3 class="slider1">Tread</h3>
+              <h2 class='slider2'>Bring modern grit to vintage glam.</h2>
             </div>
-            <!-- <ul class="quote-list">
-              <img src="images/pic06.jpg" alt="" />
-              <li>
-                <p>"Funny copy here"</p>
-                <span>Jane Doe, CEO of UntitledCorp</span>
-              </li>
-              <hr>
-              <img src="images/pic07.jpg" alt="" />
-              <li>
-                <p>"Lorem ipsum consequat!"</p>
-                <span>John Doe, President of FakeBiz</span>
-              </li>
-            </ul> -->
           </div>
-          <div class="col-md-6">
-            <img src="images/Ads copy.png" class="img-fluid" style="width:100%" alt="">
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Slider B IMG_1079 copy.JPG" alt="Third slide">
+            <div class="carousel-caption">
+              <h3 class="slider1">Cadence</h3>
+              <h2 class='slider2'>Maximize style. Minimize maintenance.</h2>
+            </div>
           </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Slider D copy 2.jpg" alt="Fourth slide">
+            <div class="carousel-caption">
+              <h3 class="slider1">Easy Going</h3>
+              <h2 class='slider2'>Coordinate with any design or stand alone.</h2>
+            </div>
+          </div>
+
         </div>
-      </div>
-      <!-- <section id="contentTopAds">
-        <div class="container">
-          <div class="row aln-center">
-
-            <div class="col-6">
-              Box #3
-              <section>
-                <header>
-                  <h5>What's New</h5>
-                  <hr>
-                </header>
-                <ul class="quote-list">
-                  <li>
-                    <img src="images/pic06.jpg" alt="" />
-                    <p>"Neque nisidapibus mattis"</p>
-                    <span>Jane Doe, CEO of UntitledCorp</span>
-                  </li>
-                  <hr>
-                  <li>
-                    <img src="images/pic07.jpg" alt="" />
-                    <p>"Lorem ipsum consequat!"</p>
-                    <span>John Doe, President of FakeBiz</span>
-                  </li>
-                </ul>
-              </section>
-            </div>
-
-            <div class="col-6">
-              <img src="images/Ads.jpg" alt="">
-              Box #1
-              <section>
-                <header>
-                  <h2>Who We Are</h2>
-                  <h3>A subheading about who we are</h3>
-                </header>
-                <a href="#" class="feature-image"><img src="images/pic05.jpg" alt="" /></a>
-                <p>
-                  Duis neque nisi, dapibus sed mattis quis, rutrum accumsan magna sed.
-                  Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis
-                  justo facilisis quis. Sed sagittis amet lorem ipsum.
-                </p>
-              </section>
-            </div>
-
-          </div>
-        </div>
-      </section> -->
-
-      <!-- Bottom Ads -->
-      <div class="container col-12" id="bottom">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images/Ads copy.png" class="img-fluid" style="width:100%" alt="">
-            <!-- <div class="bg-primary">Column</div> -->
-          </div>
-          <div class="col-md-3">
-            <img src="images/square.jpg" class="img-fluid" alt="">
-            <!-- <div class="bg-primary">Column</div> -->
-          </div>
-          <div class="col-md-3">
-            <img src="images/square.jpg" class="img-fluid" alt="">
-            <!-- <div class="bg-primary">Column</div> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Welcome Message -->
-      <div id="welcomeMessage">
-        <p class="text-center">Here's a great wordsmithed welcome message to get the viewer excited about the site.</p>
-      </div>
-
-      <!-- Lower Promo -->
-      <div id="lowerPromo">
-        <img src="images/lower.png" class="img-fluid" alt="">
-      </div>
-
-      <div id="footer">
       </div>
     </div>
+    <!--End Carousel-->
+
+    <!-- Top Ads -->
+    <div class="container-fluid" id="Ads">
+      <div class="row mt-4">
+        <div class="whatsnew col-md-6">
+          <h5>What's New</h5>
+          <hr>
+          <div class="WNcontent">
+            <img src="images/pic06.jpg">
+            <div>
+              <h4>TITLE</h4>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus ex ipsum, sit amet bibendum
+                massa suscipit nec.</h3>
+              <h6 href="#">more></h6>
+            </div>
+          </div>
+          <hr>
+          <div class="WNcontent">
+            <img src="images/pic07.jpg">
+            <div>
+              <h4>TITLE</h4>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus ex ipsum, sit amet bibendum
+                massa suscipit nec.</h3>
+              <h6>more></h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-3 mt-md-0" id="AdsBox1">
+          <div class="text-block">
+            <h2>This is the Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus ex ipsum, sit amet suscipit nec.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Close Top Ads -->
+
+    <!-- Bottom Ads -->
+    <div class="container-fluid">
+      <div class="row mt-4 justify-content-around">
+        <div class="col-md-6 mb-3 mb-md-0" id="AdsBox2">
+          <div class="text-block">
+            <h2>This is the Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus ex ipsum, sit amet suscipit nec.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3 mb-md-0" id="AdsBox4">
+          <div class="text-block ">
+            <h2>This is the Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus ex ipsum, sit amet suscipit nec.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3" id="AdsBox3">
+          <div class="text-block">
+            <h2>This is the Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus ex ipsum, sit amet suscipit nec.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Close Bottom Ads -->
+
+    <!-- Welcome Message -->
+    <div id="welcomeMessage">
+      <p class="text-center">Here's a great wordsmithed welcome message to get the viewer excited about the site.</p>
+    </div>
+    <!-- Close Welcome Message -->
+
+    <!-- Lower Promo -->
+    <div id="lowerPromo">
+      <img src="images/lower.png" class="img-fluid" alt="">
+    </div>
+    <!-- Close Lower Promo -->
   </div>
+
+  <div id="footer">
+  </div>
+  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

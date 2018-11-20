@@ -14,90 +14,193 @@
 </head>
 
 <body>
-  <div class="container col-12">
-    <div id="wrapper">
-      <div id="topBar">
-        <ul class="navbar pagination justify-content-end">
-          <li class="nav-item"><i class="fa fa-shopping-cart"></i></li>
-          <li class="nav-item">| </li>
-          <li class="nav-item">LOG IN</li>
-          <li class="nav-item">| </li>
-          <li class="nav-item">FIND A REP </li>
-          <li class="nav-item">
-            <input type="search" style="height:20px;" placeholder="Search" aria-label="Search"></li>
-        </ul>
-      </div>
+  <!-- Top Bar -->
+  <div id="topBar">
+      <ul class="navbar pagination justify-content-end">
+        <li class="nav-item"><i class="fa fa-shopping-cart"></i></li>
+        <li class="nav-item">| </li>
+        <li class="nav-item">LOG IN</li>
+        <li class="nav-item">| </li>
+        <li class="nav-item">FIND A REP </li>
+        <li class="nav-item">
+          <input type="search" style="height:20px;" placeholder="Search" aria-label="Search"></li>
+      </ul>
+    </div>
+    <!-- CLose Top Bar -->
+  
+    <div class="container col-12">
+      <!-- Header -->
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light style=" background-color: white;">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" height="60" alt="Masland logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
 
-      <div id="header">
-        <a href="index.html">
-          <img class="logo" src="images/logo.png" style="width:200px;" alt="Masland logo">
-        </a>
-        <ul class="nav pagination justify-content-end">
-          <li class="nav-item">ABOUT<a href="about.html"></a></li>
-          <li class="nav-item">PRODUCTS</li>
-          <li class="nav-item">SEGMENT</li>
-          <li class="nav-item">CUSTOM</li>
-          <li class="nav-item">TECHNICAL</li>
-          <li class="nav-item">SUSTAINABILITY</li>
-        </ul>
-      </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                ABOUT
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.html">ABOUT</a>
+                <a class="dropdown-item" href="links.html">LINKS</a>
+                <a class="dropdown-item" href="contact.html">CONTACT US</a>
+              </div>
+            </li>
 
-      <!-- Breadcrumb Area -->
-      <nav aria-label="breadcrumb" id="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="about.html">About</a></li>
-          <li class="breadcrumb-item"><a href="links.html">Links</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Contact</li>
-        </ol>
-      </nav>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">COLLECTIONS</a>
+                <a class="dropdown-item" href="#">BROADLOOM</a>
+                <a class="dropdown-item" href="#">MODULAR</a>
+                <a class="dropdown-item" href="#">LVT</a>
+                <a class="dropdown-item" href="#">AVANT CARPET</a>
+                <a class="dropdown-item" href="#">HOSPITALITY RUNNING LINE</a>
+                <a class="dropdown-item" href="#">HOSPITALITY GUEST ROOMS</a>
+                <a class="dropdown-item" href="#">QUICKSHIP</a>
+                <a class="dropdown-item" href="#">ELEVATE RUGS</a>
+                <a class="dropdown-item" href="#">STUDIO RUGS</a>
+                <a class="dropdown-item" href="#">ACCESSORIES</a>
+              </div>
+            </li>
 
-      <!-- Contact -->
-      <div id="aboutUs">
-        <span>Contact Us</span>
-        <hr>
-      </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                SEGMENTS
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">CONTRACT</a>
+                <a class="dropdown-item" href="#">HOSPITALITY</a>
+                <a class="dropdown-item" href="#">SDN CARPET</a>
+                <a class="dropdown-item" href="#">RUGS</a>
+              </div>
+            </li>
 
-      <div class="row" id="contact">
-        <p>Whether you are looking for more information or you would like to comment on our products, you will find
-          easy ways to contact us here.</p>
-        <div class="col-sm-6">
-          <h1>Direct Contact</h1>
-          <p>716 Bill Myles Dr. <br>Saraland, AL 36571</p>
-          <h1>Email</h1>
-          <p><a href="mailto:info@maslandcontract.com">info@maslandcontract.com</a></p>
-          <div class="col-xs-6 no-gutters">
-            <h1>Phone</h1>
-            <p>888-633-4770</p>
-          </div>
-          <div class="col-xs-6">
-            <h1>Fax</h1>
-            <p>251-675-5808</p>
-          </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                CUSTOM
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">CUSTOM CARPET PATTERNS</a>
+                <a class="dropdown-item" href="#">CUSTOM NYLON RUGS</a>
+                <a class="dropdown-item" href="#">RUGS 4.0 WOOL</a>
+                <a class="dropdown-item" href="#">ANDARA ROOMS CARPET</a>
+                <a class="dropdown-item" href="#">SOJOURN CUSTOM HOSPITALITY</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                TECHNICAL
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">PRODUCT SPECIFICATIONS</a>
+                <a class="dropdown-item" href="#">RUG SPECIFICATIONS</a>
+                <a class="dropdown-item" href="#">PRODUCT TEST RESULTS</a>
+                <a class="dropdown-item" href="#">RUG TEST RESULTS</a>
+                <a class="dropdown-item" href="#">INSTRUCTIONS</a>
+                <a class="dropdown-item" href="#">WARRANTIES</a>
+                <a class="dropdown-item" href="#">ACCESSORIES</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                SUSTAINABILITY
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ENVIRONMENTAL POLICY</a>
+                <a class="dropdown-item" href="#">CARPET RECLAMATION</a>
+                <a class="dropdown-item" href="#">EARTHWISE BACKING</a>
+                <a class="dropdown-item" href="#">CHOOSING THE RIGHT FIBER</a>
+                <a class="dropdown-item" href="#">DOCUMENTS</a>
+              </div>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
+    <!-- Close Header -->
 
+    <!-- Breadcrumb Area -->
+    <nav aria-label="breadcrumb" id="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="about.html">About</a></li>
+        <li class="breadcrumb-item"><a href="links.html">Links</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+      </ol>
+    </nav>
+    <hr>
+    <!-- Close Breadcrumb Area -->
 
-        <div class="col-sm-6">
-          <h1>Contact Form</h1>
-          <form action="http://test.maslandcontract.com/contact" id="contactform" method="post" accept-charset="utf-8">
+    <!-- Contact -->
+    <div id="aboutUs">
+      <span>Contact Us</span>
+      <hr>
+    </div>
 
-            <div class="row no-gutters">
-              <div class="col-sm-4"><label for="name">name </label></div>
-              <div class="col-sm-8"><input type="text" name="name" value="" required="required">
+    <div class="row" id="contact">
+      <p>Whether you are looking for more information or you would like to comment on our products, you will find
+        easy ways to contact us here.</p>
+      <!-- <form action="http://test.maslandcontract.com/contact" id="contactform" method="post" accept-charset="utf-8"> -->
+      <div class="col-sm-6">
+        <h1>Direct Contact</h1>
+        <div class="address">
+          <ul class="list-unstyled">
+            <li>716 Bill Myles Dr</li>
+            <li>Saraland, AL 36571</li>
+          </ul>
+        </div>
+        <div class="email">
+          <h1>Email</h1>
+          <ul class="list-unstyled">
+            <li>Info@maslandcontract.com</li>
+          </ul>
+        </div>
+        <div class="phone">
+          <h1>Phone</h1>
+          <ul class="list-unstyled">
+            <li>888-633-4770</li>
+          </ul>
+        </div>
+        <div class="fax">
+          <h1>Fax</h1>
+          <ul class="list-unstyled">
+            <li>251-675-5808</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <h1>Contact Form</h1>
+        <div class="card">
+          <div class="card-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input id="Name" name="Name" placeholder="NAME" class="form-control" type="text">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="EMAIL">
+                </div>
               </div>
-            </div>
-            <div class="row no-gutters">
-              <div class="col-sm-4"><label for="email">email </label></div>
-              <div class="col-sm-8"><input type="text" name="email" value="" required="required">
-              </div>
-            </div>
-            <div class="row no-gutters">
-              <div class="col-sm-4"><label for="category">category </label></div>
-              <div class="col-sm-8">
-                <div class="select-wrapper">
-
-                  <select id="dynamic_select" name="topic" required="">
-                    <option value="" selected="">How can we help you?</option>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <select class="form-control" id="dynamic_select" name="topic" required="">
+                    <option value="" selected="">CATEGORY</option>
                     <option value="product_info">Product Information</option>
                     <option value="order_info">Order Information</option>
                     <option value="custom_orders">Custom Orders</option>
@@ -109,56 +212,40 @@
                     <option value="careers">Careers</option>
                   </select>
                 </div>
-              </div>
-            </div>
-            <div class="row no-gutters">
-              <div class="col-sm-4"><label for="topic">topic </label></div>
-              <div class="col-sm-8">
-                <div class="select-wrapper">
-                  <select id="dynamic_select" name="topic">
-                    <option value=" " selected=""> -- </option>
+
+                <div class="form-group col-md-6">
+                  <select class="form-control" id="dynamic_select" name="topic">
+                    <option value=" " selected="">TOPIC</option>
                     <option value="design">Design</option>
                     <option value="technical">Technical</option>
                     <option value="project_management">Project Management</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
+                <div class="form-group col-md-12">
+                  <textarea id="comment" name="comment" cols="40" rows="5" placeholder="MESSAGE" class="form-control"></textarea>
+                </div>
               </div>
-            </div>
-            <div class="row no-gutters">
-              <div class="col-xs-12">
-                <label for="message">message </label><br>
-                <textarea name="message" cols="40" rows="10" required="required"></textarea>
+              <div class="form-row">
+                <button type="button" class="greenbtn btn">SUBMIT</button>
               </div>
-            </div>
-
-
-
-            <div class="row no-gutters ">
-              <div class="col-sm-4"><label for="captcha">captcha </label></div>
-              <div class="col-sm-8">
-                <center><img id="Imageid" src="http://test.maslandcontract.com/captcha/1538613833.3793.jpg" style="width: 200; height: 50; border: 0;"
-                    alt=" "></center><br><input type="text" name="captcha" value="" required="required" placeholder="Enter captcha text">
-              </div>
-            </div>
-
-            <div class="row no-gutters">
-              <div class="col-xs-12">
-                <input type="submit" value="Send">
-              </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
+      <!-- <div class="row no-gutters ">
+        <div class="col-sm-4"><label for="captcha">captcha </label></div>
+        <div class="col-sm-8">
+          <center><img id="Imageid" src="http://test.maslandcontract.com/captcha/1538613833.3793.jpg" style="width: 200; height: 50; border: 0;"
+              alt=" "></center><br><input type="text" name="captcha" value="" required="required" placeholder="Enter captcha text">
+        </div>
+      </div> -->
+  </div>
+  </div>
+  <!-- End Contact -->
 
-
-
-
-
-
-      <div id="footer">
-      </div>
-    </div>
+  <div id="footer">
+  </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
